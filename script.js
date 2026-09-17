@@ -227,7 +227,7 @@ displayCir()
     cards.push(juliet)
   function displayCard(){
     
-    for(i = 0; i < cards.length; i++){
+    for(let i = 0; i < cards.length; i++){
       let heade = document.createElement("p")
       heade.className = "heade"
     let foo = document.createElement("p")

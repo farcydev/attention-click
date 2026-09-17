@@ -236,13 +236,13 @@ displayCir()
     myD.className = "myD"
       heade.innerText = cards[i].name;
       foo.innerText = cards[i].speech;
-      odser.observe(myD)
-      odser.observe(heade)
-      odser.observe(foo)
     myD.appendChild(heade);
     myD.appendChild(foo);
     sectionE.appendChild(myD);
     
+      odser.observe(myD)
+      odser.observe(heade)
+      odser.observe(foo)
     }
     
   }

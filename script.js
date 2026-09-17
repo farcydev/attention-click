@@ -244,7 +244,7 @@ displayCir()
       odser.observe(heade)
       odser.observe(foo)
     }
-    
+    alert(cards.length);       alert(sectionE.children.length);
   }
   let odser = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {

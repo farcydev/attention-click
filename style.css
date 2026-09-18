@@ -404,6 +404,9 @@ body {
   box-sizing: border-box;
   z-index: 50;
 }
+#sectionE:last-child {
+  margin-bottom: 60px;
+}
 .myD {
   flex-shrink: 0;
   background: #FFFFFF;
@@ -419,7 +422,7 @@ body {
   opacity: 0;
 }
 .myD::before {
-  content: "🌚";
+  content: "🥳";
   position: absolute;
   top: -15px;
   right: -15px;

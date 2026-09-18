@@ -176,7 +176,7 @@ let observer = new IntersectionObserver((entries) => {
  myForm.addEventListener("submit", (event) => {
   event.preventDefault();
   
-  if (pWord.value === "1235") {
+  if (pWord.value === "1215") {
     secLay();
     
     happy.load();

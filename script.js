@@ -226,11 +226,13 @@ displayCir()
 let Ahmidat = new Card("Ahmidat", "Happy Birthday, Bae Kaffy! Wishing you a day full of joy and a year full of wins. Thank you for being you — kind, funny, and genuinely one of a kind. You mean so much more to me than words can say. Enjoy your day to the fullest. You deserve it all.")
 let favour = new Card("Favour", "I'm so proud of everything you've been through and everything you're becoming. I hope this year brings you more peace, more money, more love, and all the things you secretly pray for. Happy Birthday again! 🎉❤️")
 let baraka = new Card("Barakat", "Kafayat HAPPY BIRTHDAY!!! 🎂 On your special day, I want you to know how amazing you are. You are kind, funny, beautiful, smart and one of the most real people I know.You have such a beautiful heart and you make everyone around you happy. Thank you for all the laughter, the gist, the advice, and for always being there. Honestly, life is just more fun with you in it. But though we've parted. My wish for you today: I wish you more money, more happiness, more love, and less stress. I pray this new age brings you everything you have been praying for. May you continue to shine and grow into everything you want to be. ALIU KHIFAYAH MOTUNRAYO ABISOLA APEKE, you are loved, you are appreciated, and you are so important to me. Never forget that. Enjoy your day to the fullest. Eat plenty cake and jollof for me. You deserve the world and more. Happy Birthday once again, my favorite human! With lots of love, From your favorite person 💌 OMOKANYE OMOWUMI BARAKAT❤️❤️❤️❤️❤️❤️ We meet to part, we part to meet😊🥹😍")
+let ameerah = new Card("Ameerah","Happy Birthday 💛 I don’t even know where to start because there’s so much I could say about you. You’re honestly one of the best people I’ve ever had in my life, and I’m really grateful for you. You make everything feel lighter, even on days that don’t go well. I love how easy it is to be around you—no pressure, no pretending, just real vibes. You’ve been there for me in ways I don’t always say thank you for, but trust me, I notice it all. Today is your day, and I just hope you feel as special as you truly are. You deserve happiness, peace, good things, and all the little moments that make life sweet. I’m really glad I have you, and I wouldn’t trade our friendship for anything. Enjoy your day, laugh a lot, and don’t forget to save me cake 😌 Happy Birthday once again 🎉")
     cards.push(farcy)
     cards.push(juliet)
     cards.push(Ahmidat)
     cards.push(favour)
     cards.push(baraka)
+    cards.push(ameerah)
   function displayCard(){
     
     for(let i = 0; i < cards.length; i++){
